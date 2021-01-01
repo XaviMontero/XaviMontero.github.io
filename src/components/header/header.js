@@ -33,7 +33,7 @@ const Header = ({isNotFound}) => {
   return (
     <header scroll={scroll.toString()}>
       <StyledBrand className={"navbar-brand"} scroll={scroll}>
-        S
+        X
       </StyledBrand>
       {isNotFound ? null : mobile ? <MobileMenu /> : <DesktopMenu scroll={scroll} />}
     </header>

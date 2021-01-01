@@ -1,5 +1,5 @@
 ---
-title: Sofia Silva
+title: Xavi Montero
 subtitle: Hello, my name is
-slogan: A passionate iOS and frontend software engineer keen on UI/UX design.
+slogan: A passionate Backend and frontend software engineer keen on UI/UX design.
 ---

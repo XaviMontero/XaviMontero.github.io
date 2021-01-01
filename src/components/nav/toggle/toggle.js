@@ -4,7 +4,7 @@ import useDarkMode from "use-dark-mode"
 import { useSpring, animated } from "react-spring"
 
 const DarkModeToggle = () => {
-  const darkMode = useDarkMode(false)
+  const darkMode = useDarkMode(true)
 
   const darkModeToggleSpring = useSpring({
     delay: 200,
