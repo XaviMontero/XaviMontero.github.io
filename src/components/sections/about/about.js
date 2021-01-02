@@ -1,8 +1,8 @@
 import React from "react"
 import "./about.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import PhotoOne from "../../../images/gallery-1.jpg"
-import PhotoTwo from "../../../images/gallery-2.jpg"
+import PhotoOne from "../../../images/code.gif"
+import PhotoTwo from "../../../images/rotatingChair.gif"
 import { faFile } from "@fortawesome/free-solid-svg-icons"
 
 const About = ({ data }) => {
@@ -63,14 +63,11 @@ const About = ({ data }) => {
                   </div>
                 ))}
             </div>
-          </div>
-        </div>
-        <div className="about-gallery">
-          <div className="image">
-            <img src={PhotoOne} alt="Poland" />
-          </div>
-          <div className="image">
-            <img src={PhotoTwo} alt="Madrid" />
+         </div>
+     </div>
+       <div className="about-gallery">
+       <div className="image">
+            <img src={PhotoOne} alt="Madrid" />
           </div>
         </div>
       </div>

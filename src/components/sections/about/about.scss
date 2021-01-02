@@ -44,8 +44,8 @@
 
 #about .about-grid {
   display: grid;
-  grid-template-columns: 75% 25%;
-  column-gap: 3em;
+  grid-template-columns: 65% 35%;
+  column-gap: 4em;
 }
 
 #about .education {
@@ -101,7 +101,7 @@
       max-width: 60%;
     }
     .about-gallery .image {
-      max-width: 55%;
+      max-width: 85%;
       padding-left: 0.5em;
 
       &:first-child {
@@ -118,7 +118,7 @@
       padding-right: 3em;
     }
     .about-gallery .image {
-      max-width: 55%;
+      max-width: 85%;
       padding-left: 0.5em;
 
       &:first-child {
